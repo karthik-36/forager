@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/forager/static/css/main.073c9b0a.css",
-    "main.js": "/forager/static/js/main.ff7d0e40.js",
+    "main.css": "/forager/static/css/main.e9f15a3a.css",
+    "main.js": "/forager/static/js/main.b3a34ebe.js",
     "static/js/787.cb7f2ebd.chunk.js": "/forager/static/js/787.cb7f2ebd.chunk.js",
-    "static/media/logo.svg": "/forager/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/lock.jpg": "/forager/static/media/lock.bb464a9f9d73ede81c4f.jpg",
+    "static/media/forgLogo.JPG": "/forager/static/media/forgLogo.1314fe584f8450a6da46.JPG",
+    "static/media/mail.png": "/forager/static/media/mail.f2e000b80d067eb62dd0.png",
     "index.html": "/forager/index.html",
-    "main.073c9b0a.css.map": "/forager/static/css/main.073c9b0a.css.map",
-    "main.ff7d0e40.js.map": "/forager/static/js/main.ff7d0e40.js.map",
+    "main.e9f15a3a.css.map": "/forager/static/css/main.e9f15a3a.css.map",
+    "main.b3a34ebe.js.map": "/forager/static/js/main.b3a34ebe.js.map",
     "787.cb7f2ebd.chunk.js.map": "/forager/static/js/787.cb7f2ebd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ff7d0e40.js"
+    "static/css/main.e9f15a3a.css",
+    "static/js/main.b3a34ebe.js"
   ]
 }
