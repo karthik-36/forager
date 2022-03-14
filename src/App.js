@@ -1,46 +1,28 @@
+import React from 'react';
 import './App.css';
-import profile from "./image/forgLogo.JPG";
-import email from "./image/mail.png";
-import pass from "./image/lock.jpg";
-function LoginUi() {
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Messaging from './pages/Messaging';
+import History from './pages/History';
+import Donation from './pages/Donor';
+import Reception from './pages/Receiver';
+
+function App() {
   return (
-    <div className="main">
-     <div className="sub-main">
-       <div>
-         <div className="imgs">
-           <div className="container-image">
-             <img src={profile} alt="profile" className="profile"/>
-
-           </div>
-
-
-         </div>
-         <div style = {{ margin : "bottom"}}>
-        
-           <div>
-             <img src={email} alt="email" className="email"/>
-             <input type="text" placeholder="username" className="name"/>
-           </div>
-           <div className="second-input">
-             <img src={pass} alt="pass" className="email"/>
-             <input type="password" placeholder="password" className="name"/>
-           </div>
-          <div className="login-button">
-          <button>Login</button>
-          </div>
-           
-            <p className="link">
-              <a href="#">Forgot password ?</a> Or <a href="#">Sign Up</a>
-            </p>
-           
- 
-         </div>
-       </div>
-       
-
-     </div>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/donation' component={Donation} />
+          <Route path='/reception' component={Reception} />
+          <Route path='/messaging' component={Messaging} />
+          <Route path='/history' component={History} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
-export default LoginUi;
+export default App;
