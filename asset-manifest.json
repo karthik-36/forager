@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/forager/static/css/main.e9f15a3a.css",
-    "main.js": "/forager/static/js/main.b3a34ebe.js",
+    "main.css": "/forager/static/css/main.2af020f8.css",
+    "main.js": "/forager/static/js/main.20a89919.js",
     "static/js/787.cb7f2ebd.chunk.js": "/forager/static/js/787.cb7f2ebd.chunk.js",
     "static/media/lock.jpg": "/forager/static/media/lock.bb464a9f9d73ede81c4f.jpg",
     "static/media/forgLogo.JPG": "/forager/static/media/forgLogo.1314fe584f8450a6da46.JPG",
     "static/media/mail.png": "/forager/static/media/mail.f2e000b80d067eb62dd0.png",
     "index.html": "/forager/index.html",
-    "main.e9f15a3a.css.map": "/forager/static/css/main.e9f15a3a.css.map",
-    "main.b3a34ebe.js.map": "/forager/static/js/main.b3a34ebe.js.map",
+    "main.2af020f8.css.map": "/forager/static/css/main.2af020f8.css.map",
+    "main.20a89919.js.map": "/forager/static/js/main.20a89919.js.map",
     "787.cb7f2ebd.chunk.js.map": "/forager/static/js/787.cb7f2ebd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9f15a3a.css",
-    "static/js/main.b3a34ebe.js"
+    "static/css/main.2af020f8.css",
+    "static/js/main.20a89919.js"
   ]
 }
