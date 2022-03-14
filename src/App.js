@@ -7,6 +7,7 @@ import Messaging from './pages/Messaging';
 import History from './pages/History';
 import Donation from './pages/Donor';
 import Reception from './pages/Receiver';
+import Login from './Login'
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           <Route path='/history' component={History} />
         </Switch>
       </Router>
+
+      {/* <Login/> */}
+      
     </>
   );
 }
